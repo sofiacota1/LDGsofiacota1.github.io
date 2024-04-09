@@ -1,0 +1,70 @@
+header{background:#e57d90; height: 200px;}
+body {background-color:#e57d90; color: white;width: 1400px; height: 100px; text-align: center;font-size: 20px;}
+.wrap-servicios-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.item-servicios-section{
+  padding: 1rem;
+}
+
+.item-servicios-section img{
+  width: 300px;
+  height: 225px;
+}
+
+/** Two Columns Section **/
+
+.wrap-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrap-img_two-column{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.wrap-text-column h3{
+  padding: 2rem 0;
+}
+
+.wrap-text-column p{
+  padding-bottom: 1rem;
+}
+.footer-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-footer-section{
+  padding: 1rem 0;
+}
+
+.wrap-social-logos ul, .wrap-menu-footer-section ul{
+  display: flex;
+  justify-content: center;
+}
+
+.social-logo{
+  max-width: 75px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.wrap-menu-footer-section ul li{
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+.footer-creds{
+  display: flex;
+  justify-content: center;
+}
